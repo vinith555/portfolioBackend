@@ -1,6 +1,6 @@
 const express = require('express');
 const { ObjectId } = require('mongodb');
-const { connectDB, client } = require('../backend/db');
+const { connectDB, client } = require('./db');
 require('dotenv').config();
 
 const app = express();
