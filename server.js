@@ -9,9 +9,7 @@ const port = process.env.PORT || 8080;
 
 // Middleware
 app.use(express.json());
-app.use(cors({
-  origin: 'http://localhost:4200'
-}));
+app.use(cors());
 
 let feedbackCollection;
 let usersCollection;
